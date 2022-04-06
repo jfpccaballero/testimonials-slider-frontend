@@ -102,29 +102,27 @@ span {
     span { display: block; }
     .slide { padding-right: 1.5rem; }
 }
-
 @media screen and (max-width: 768px) {
     body { background-size: contain; }
-    footer 
-    h1 { font-size: 18px; }
+    h1 { font-size: 16px; }
     .slide {
         display: block;
         background-size: 22rem;
         background-position-x: center;
         background-position-y: 0;
         margin: 0;
-        padding: 3rem 10%;
+        padding: 0 10%;
         text-align: center;
     }
-    p { font-size: 16px;}
-    .avatar { width: 16rem; margin-bottom: 2rem;}
+    p { font-size: 14px;}
+    .avatar { width: 16rem; margin: 2rem 0;}
     .btn {
         left: 0; 
         right: 0; 
         margin-left: auto; 
         margin-right: auto;
         bottom: auto;
-        top: 17.5rem;
+        top: 16.5rem;
     }
     .content {
         position: relative;
